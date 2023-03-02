@@ -225,7 +225,21 @@ main {
     cursor: pointer;
 }
 
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 50%;
+        width: max-content;
+        height: max-conten;
+    }
 
+    main {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    } 
+}
+
+    
 
 
 
