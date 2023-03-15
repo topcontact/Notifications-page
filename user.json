@@ -1,0 +1,75 @@
+[
+    {
+        "userId": 1,
+        "status": "unread",
+        "userPic": "./images/avatar-mark-webber.webp",
+        "name": "Mark Webber",
+        "activity": "reacted to your recent post",
+        "endObject": "My first tournament today!",
+        "time": "1m ago"      
+    },
+
+    {
+        "userId": 2,
+        "status": "unread",
+        "userPic": "./images/avatar-angela-gray.webp",
+        "name": "Angela Grey",
+        "activity": "followed you",
+        "endObject": " ",
+        "time": "5m ago"      
+    },
+
+    {
+        "userId": 3,
+        "status": "unread",
+        "userPic": "./images/avatar-jacob-thompson.webp",
+        "name": "Jacob Thomson",
+        "activity": "has joined your group",
+        "endObject": "Chess Club",
+        "time": "1day ago"      
+    },
+
+    {
+        "userId": 4,
+        "status": "read",
+        "userPic": "./images/avatar-rizky-hasanuddin.webp",
+        "name": "Ricky Hasanuddin",
+        "activity": "send your private message",
+        "endObject": " ",
+        "time": "5 days ago",
+        "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+    
+    },
+
+    {
+        "userId": 5,
+        "status": "read",
+        "userPic": "./images/avatar-kimberly-smith.webp",
+        "name": "kimberly Smith",
+        "activity": "commented on your picture",
+        "endObject": " ",
+        "time": "1 week ago",
+        "endObjectPic": "images/image-chess.webp"
+    },
+
+    {
+        "userId": 6,
+        "status": "read",
+        "userPic": "./images/avatar-nathan-peterson.webp",
+        "name": "Nathan Peterson",
+        "activity": "reacted to your recent post",
+        "endObject": "5 end=game strategies to increase your win rate",
+        "time": "2 weeks ago"      
+    },
+
+    {
+        "userId": 7,
+        "status": "read",
+        "userPic": "./images/avatar-anna-kim.webp",
+        "name": "Anna Kim",
+        "activity": "left the group",
+        "endObject": "Chess Club",
+        "time": "2 weeks ago"      
+    }
+    
+]

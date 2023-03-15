@@ -150,6 +150,10 @@ main {
     color : hsl(219, 85%, 26%);
 }
 
+.event:hover {
+    color : hsl(219, 85%, 26%);
+}
+
 .mark {
     color: hsl(219, 12%, 42%);
 }
@@ -210,22 +214,17 @@ main {
 .reddot {
     height: 0.5rem;
     width: 0.5rem;
-    background-color: hsl(1, 90%, 64%);
     border-radius: 50%;
     display: inline-block;
     text-align: center;
   }
 
-.unread {
-    background-color: hsl(210, 60%, 98%);
-    
-}
 
-.name, .event, .messageBox, .eventPicture img, .mark, .eventUnclick {
+.name, .event, .messageBox, .eventPicture img, .mark, .eventUnclick, .userBox.unread {
     cursor: pointer;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 835px) {
     html {
         font-size: 50%;
         width: max-content;
@@ -239,7 +238,22 @@ main {
     } 
 }
 
+.userBox.unread {
+    background-color: hsl(210, 60%, 98%);
     
+  }
+    
+.userBox.read {
+    background-color: rgba(0,0,0,0.0);
+    
+  }
 
+  .reddot.unread {
+    background-color: hsl(1, 90%, 64%);
+  }
+
+  .reddot.read {
+    background-color: rgba(0,0,0,0.0);
+  }
 
 
